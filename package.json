@@ -2,6 +2,11 @@
   "name": "nextjs-bilerplate-template-tut",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=v18.15.0",
+    "npm": ">=9.6.6",
+    "yarn": "please use npm"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

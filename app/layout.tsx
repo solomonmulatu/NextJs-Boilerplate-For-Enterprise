@@ -1,6 +1,10 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import Head from 'next/head';
+import Header from '@/components/navigation/header/Header';
+import Footer from '@/components/navigation/footer/Footer';
+import React from 'react';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -16,7 +20,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <Head>
+        <title>NextJs Fullstack App Template</title>
+      </Head>
+      <body className={inter.className}>
+        <div className={`min-h-screen flex flex-col items-center`}>
+          <Header />
+          <main className="px-5">{children}</main>
+          <div className="m-auto" />
+          <Footer />
+        </div>
+      </body>
     </html>
   );
 }

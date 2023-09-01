@@ -1,4 +1,4 @@
-NextJs Boilerplate For Enterprise is a starter kit for building scalable and high-performance web applications using Next.js, TypeScript, Tailwind CSS,
+NextJs Boilerplate For Enterprise is a starter kit for building scalable and high-performance web applications using Next.js, TypeScript and  Tailwind CSS.
 ## Table of Contents
 
 1. [What is Next.js?](#what-is-nextjs)
@@ -1468,21 +1468,3 @@ The only thing you need to keep in mind are the differences between your two env
 
 We will be adding `env` values in future tutorials so you will need to make sure those values are configured in both your local and production environment, since they are secrets and should never be committed to a public (or even private if can be avoided) repository.
 
-## Next Steps
-
-I hope you found this tutorial and learned something about setting up a solid and scaleable Next.js project for you and your team.
-
-This is the first part of what is intended to be a multi-part series on creating a production quality Next.js app.
-
-Some of my ideas for future installments are below, I'd encourage you to leave some feedback about which ones you'd find most useful (or other ones if you don't see them below).
-
-- ~~- How to Build Scalable Architecture for your Next.js Project~~
-- ~~- How to build a fullstack Next.js app using API routes and Tailwind CSS~~
-- How to implement unit and end-to-end testing in a Next.s app with jest and playwright
-- How to add a global state manager to your Next.js app with Recoil
-- How to create a CI/CD pipeline with Github actions and Vercel
-- How to implement SSO authentication and internationalization in a Next.js app using NextAuth and i18next
-- How to connect a database to your Next.js app with Prisma and Supabase
-- How to manage multiple applications in a monorepo with Next.js and Nx
-
-Stay tuned and please don't hesitate to ask any questions, I'm happy to answer if I can!
